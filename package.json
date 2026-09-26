@@ -1,0 +1,25 @@
+{
+  "name": "verticaltech",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "clear && nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "translate": "node scripts/translate.mjs"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.6.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "lucide-vue-next": "^1.0.0",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "deepl-node": "^1.28.0",
+    "dotenv": "^18.0.3"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "site": {
+    "name": "Vertical Technology",
+    "title": "Vertical Technology - Elevator Services in Georgia",
+    "description": "Elevator installation, 24/7 maintenance, repair and spare parts in Georgia. 14 years of experience, 700+ elevators served."
+  },
+  "nav": {
+    "home": "home",
+    "installation": "installation",
+    "service": "service",
+    "repair": "repair",
+    "products": "products",
+    "about": "about",
+    "contact": "contact"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "getInTouch": "Get in touch",
+    "callNow": "Call now",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address"
+  },
+  "home": {
+    "heroEyebrow": "Safe, Fast, Reliable",
+    "heroTitle": "700+ elevators running across Georgia since 2011",
+    "heroSubtitle": "Installation, 24/7 maintenance, repair and spare parts - Vertical Technology, Tbilisi",
+    "heroImageAlt": "Modern elevator cabin interior",
+    "aboutImageAlt": "Vertical Technology technician at work",
+    "trustEyebrow": "Trusted by leading manufacturers",
+    "trustLead": "Equipment from Kayatec, Kleemann, SRH, Fuji and more",
+    "trustZones": "Tbilisi · Gori · Mtskheta · Kutaisi · Batumi · Gonio · Zugdidi",
+    "aboutEyebrow": "About us",
+    "aboutTeaserTitle": "Steady since 2011",
+    "aboutTeaserText": "From Tbilisi to the coast, we install, maintain and repair 700+ elevators - residential, commercial and hospital. Zone-based technicians and a stocked warehouse keep your building moving.",
+    "productsEyebrow": "Products",
+    "productsTeaserTitle": "Spare parts in stock",
+    "productsTeaserText": "Genuine motors, electronics, doors, cables and guides - ready to ship when you need them.",
+    "stats": {
+      "installed": "Elevators installed",
+      "maintained": "Elevators maintained",
+      "experience": "Years of experience"
+    },
+    "servicesTitle": "Our services",
+    "services": {
+      "installation": {
+        "title": "Installation",
+        "desc": "Passenger, freight, panoramic and special elevators - from shaft consulting to handover."
+      },
+      "service": {
+        "title": "Service",
+        "desc": "24/7 maintenance and emergency support with zone-based technicians."
+      },
+      "repair": {
+        "title": "Repair",
+        "desc": "Inspection, modernization and full repair - cabins, cables, motors and more."
+      },
+      "products": {
+        "title": "Products",
+        "desc": "Spare parts in stock: motors, electronics, doors, cables and guides."
+      }
+    },
+    "ctaTitle": "An elevator is about trust",
+    "ctaText": "Since 2011 we have kept 700+ elevators running safely across Georgia. Our qualified technicians are on call around the clock.",
+    "ctaButton": "Get in touch"
+  },
+  "about": {
+    "title": "About us",
+    "subtitle": "Elevator experts serving Georgia since 2011",
+    "historyTitle": "Company history",
+    "historyText": "Founded in 2011 in Tbilisi, Vertical Technology has grown into one of Georgia's trusted elevator companies. Today we install, maintain and repair more than 700 elevators across the country - from residential blocks to hospitals and commercial centers.",
+    "valuesTitle": "Why choose us",
+    "values": {
+      "safety": {
+        "title": "Safety first",
+        "text": "Every installation and repair follows strict safety standards and a full post-work inspection."
+      },
+      "availability": {
+        "title": "24/7 availability",
+        "text": "Zone-based technicians and a stocked spare-parts warehouse mean fast response, day or night."
+      },
+      "team": {
+        "title": "Qualified team",
+        "text": "Certified technicians with years of field experience on all major elevator brands."
+      }
+    },
+    "partnersTitle": "Our partners",
+    "partnersText": "We install and service equipment from leading world manufacturers.",
+    "zonesTitle": "Service zones"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Installation, maintenance and repair - one partner for the full elevator lifecycle",
+    "installation": {
+      "title": "Installation",
+      "subtitle": "New elevators, tailored to your building",
+      "text": "From shaft consulting to final handover, we handle the full installation: design selection, economy or premium configuration, and custom orders for unusual shafts.",
+      "includedTitle": "What's included",
+      "included": {
+        "consulting": "Shaft consulting and measurements",
+        "design": "Design and cabin selection",
+        "quality": "Economy or premium configuration",
+        "custom": "Custom orders for special shafts"
+      },
+      "typesTitle": "Elevator types",
+      "types": {
+        "passenger": "Passenger",
+        "freight": "Freight",
+        "wheelchair": "Wheelchair-accessible",
+        "kitchen": "Kitchen",
+        "hospital": "Hospital",
+        "panoramic": "Panoramic",
+        "special": "Special"
+      }
+    },
+    "service": {
+      "title": "Service",
+      "subtitle": "Maintenance that never sleeps",
+      "text": "Our zone-based technician system keeps a specialist close to your building. Scheduled maintenance, a stocked spare-parts warehouse and emergency response keep your elevator running safely around the clock.",
+      "features": {
+        "247": "24/7 maintenance and support",
+        "zones": "Zone-based technician system",
+        "parts": "Spare parts always in stock",
+        "emergency": "Fast emergency response"
+      }
+    },
+    "repair": {
+      "title": "Repair",
+      "subtitle": "From inspection to modernization",
+      "text": "We start every repair with an inspection and a written defect report. From small adjustments to full modernization, we bring old elevators back to safe, smooth operation.",
+      "includedTitle": "Services include",
+      "items": {
+        "inspection": "Inspection and defect reporting",
+        "modernization": "Full modernization",
+        "cabin": "Cabin renovation",
+        "cable": "Cable replacement",
+        "guides": "Guide adjustment",
+        "doors": "Door regulation",
+        "motor": "Motor replacement",
+        "counterweight": "Counterweight maintenance"
+      }
+    }
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Genuine spare parts in stock - motors, electronics, doors, cables and more",
+    "teaserImageAlt": "Elevator spare part",
+    "filterAll": "All",
+    "askAbout": "Ask about this part",
+    "inquiryAbout": "Hello! I'm interested in this part: {part}. Please contact me back.",
+    "categories": {
+      "motors": "Motors",
+      "doors": "Doors",
+      "electronics": "Electronics",
+      "cables": "Cables",
+      "mechanics": "Mechanics",
+      "cabin": "Cabin"
+    },
+    "items": {
+      "tractionMotor": "Traction motor",
+      "doorOperator": "Door operator",
+      "controlPanel": "Control panel",
+      "guideRails": "Guide rails",
+      "wireRopes": "Wire ropes",
+      "counterweight": "Counterweight blocks",
+      "cabinFan": "Cabin fan",
+      "pushButtons": "Push buttons",
+      "inverter": "Frequency inverter",
+      "buffers": "Buffers",
+      "pulleys": "Pulleys",
+      "brakes": "Brake assembly"
+    }
+  },
+  "contact": {
+    "eyebrow": "24/7 response",
+    "title": "Contact",
+    "subtitle": "Call us any time - we answer around the clock",
+    "heroCta": { "call": "Call now", "directions": "Get directions" },
+    "infoEyebrow": "Reach us",
+    "infoTitle": "Contact information",
+    "address": "Jumper Lezhava N22, Hualing, Tbilisi Plaza, Floor 2, Room 2A-051",
+    "cards": {
+      "emergencyLabel": "24/7 emergency",
+      "officeLabel": "Office",
+      "emailLabel": "Email",
+      "addressLabel": "Address",
+      "copy": "Copy",
+      "copied": "Copied",
+      "directions": "Get directions"
+    },
+    "mapTitle": "Find us on the map",
+    "mapAction": "Open in Maps",
+    "trustLine": "14 years · 700+ elevators · Tbilisi → Batumi → Kutaisi",
+    "form": {
+      "heading": "Request a callback",
+      "subheading": "We reply within one working day - or call now for urgent help.",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone number",
+      "topic": "Topic",
+      "topicPlaceholder": "Select a topic",
+      "topics": {
+        "installation": "Installation",
+        "service": "Maintenance",
+        "repair": "Repair",
+        "parts": "Spare parts",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send message",
+      "hint": "Prefer email? It opens your mail app - or copy the address from the left.",
+      "success": "Thank you! Your email app will open to complete sending. If nothing opened, copy the address and email us directly.",
+      "errors": {
+        "required": "This field is required",
+        "email": "Enter a valid email address",
+        "phone": "Enter a valid phone number"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Safe, fast, reliable elevators since 2011.",
+    "quickLinks": "Quick links",
+    "contacts": "Contacts",
+    "rights": "All rights reserved."
+  }
+}
