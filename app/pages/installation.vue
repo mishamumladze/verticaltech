@@ -61,7 +61,7 @@
             :key="item.key"
             class="grid min-h-[44px] items-start gap-3 rounded-xl bg-mist p-5"
           >
-            <img :src="item.image" :alt="item.alt" class="rounded">
+            <NuxtPicture :src="item.image" :alt="item.alt" format="avif,webp" sizes="100vw sm:50vw lg:33vw" :img-attrs="{ class: 'rounded', loading: 'lazy', decoding: 'async' }" />
             <div class="flex">
               <component :is="item.icon" class="mt-0.5 h-6 w-6 mr-4 shrink-0 text-brand" aria-hidden="true" />
               <span class="font-semibold leading-snug">{{ t(`services.installation.types.${item.key}`) }}</span>
@@ -105,7 +105,7 @@ const localePath = useLocalePath()
 
 const stepIcons = [Ruler, Palette, Wrench, KeyRound]
 const typeCards = [
-  { key: 'passenger', icon: Users, image: "/pages/installation/passenger.webp", alt: 'test'},
+  { key: 'passenger', icon: Users, image: "/pages/home/about.webp", alt: 'test'},
   { key: 'freight', icon: Box, image: "/pages/installation/freight.webp", alt: 'test'},
   { key: 'wheelchair', icon: Accessibility, image: "/pages/installation/wheelchair.webp", alt: 'test'},
   { key: 'kitchen', icon: UtensilsCrossed, image: "/pages/installation/kitchen.webp", alt: 'test'},

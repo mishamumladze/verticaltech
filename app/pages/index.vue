@@ -31,12 +31,19 @@
         <div
           class="flex space-x-16 animate-loop-scroll min-w-full shrink-0 h-40 items-center justify-around group-hover:[animation-play-state:paused]"
         >
-          <img
+          <NuxtPicture
             v-for="(logo, index) in logos"
             :key="`track1-${index}`"
             :src="logo.src"
             :alt="logo.alt"
-            class="h-40 max-w-none transition-all duration-300 cursor-pointer"
+            format="avif,webp"
+            width="768"
+            height="768"
+            :img-attrs="{
+              class: 'h-40 max-w-none transition-all duration-300 cursor-pointer',
+              loading: 'lazy',
+              decoding: 'async',
+            }"
           />
         </div>
         <p class="mt-3 text-sm text-ink/70">{{ t("home.trustZones") }}</p>
@@ -119,11 +126,18 @@
             class="absolute -left-3 -top-3 h-full w-full rounded-xl bg-navy"
             aria-hidden="true"
           />
-          <img
+          <NuxtPicture
             src="/pages/home/about.webp"
             :alt="t('home.aboutImageAlt')"
-            class="relative aspect-[4/3] w-full rounded-xl object-cover shadow-sm"
-            loading="lazy"
+            format="avif,webp"
+            width="1090"
+            height="720"
+            sizes="100vw md:50vw"
+            :img-attrs="{
+              class: 'relative aspect-[4/3] w-full rounded-xl object-cover shadow-sm',
+              loading: 'lazy',
+              decoding: 'async',
+            }"
           />
           <p
             class="absolute -bottom-4 left-6 rounded-lg bg-brand px-4 py-2 text-sm font-bold text-white shadow-md"

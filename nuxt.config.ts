@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/image'],
+  image: {
+    formats: ['avif', 'webp'],
+    densities: [1, 2],
+  },
   app: { pageTransition: { name: 'page', mode: 'out-in' } },
   routeRules: {
     '/services': { redirect: '/' },

@@ -53,7 +53,7 @@
     <!-- Features: 4 benefit cards with icons -->
     <section class="flex mx-auto max-w-6xl px-4 pt-16 md:pt-20 gap-4">
       <div class="max-w-[50%]">
-        <img src="/pages/service/main.webp" alt="test">
+        <NuxtPicture src="/hero/installation.webp" alt="test" format="avif,webp" width="2560" height="1920" sizes="100vw md:50vw" :img-attrs="{ loading: 'lazy', decoding: 'async' }" />
       </div>
       <div class="max-w-[50%]">
         <p

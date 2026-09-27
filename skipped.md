@@ -160,3 +160,14 @@ Add each only when the trigger below is met.
 - What: tel: tap events, topic-select funnel, copy-email counts.
 - Skipped because: no analytics pipeline yet; adds weight before we know the funnel matters.
 - Add when: lead attribution becomes a question the company actually asks.
+
+## 30. favicon / tab
+- What: proper tab icon set from `logo.webp` — `apple-touch-icon` (180px), 32/16 PNGs, `<link rel="icon">` in `app/app.vue`.
+- Skipped because: `public/favicon.ico` fallback works for now; needs logo exports at right sizes.
+- Add when: logo is final; then export + wire links.
+- Status: DONE — emblem-based set ships (`apple-touch-icon.png`, `favicon-32x32/16x16.png`, rebuilt `favicon.ico`); wired in `app/app.vue` with `og:image` + `Organization` JSON-LD.
+
+## 31. hosting move (cache headers)
+- What: hosting will move off Vercel in the future — port the immutable `Cache-Control` rules in `vercel.json` (`/hero/*`, `/pages/*`, `/partners/*`, `/logo.webp`, `/favicon-*.png`, `/apple-touch-icon.png`, `/_image*`) to the new host's syntax.
+- Skipped because: currently on Vercel.
+- Add when: hosting moves (nginx location block / netlify.toml / etc).

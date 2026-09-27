@@ -29,15 +29,40 @@ useHead(() => ({
   title: t('site.title'),
   meta: [
     { name: 'description', content: t('site.description') },
+    { property: 'og:type', content: 'website' },
     { property: 'og:title', content: t('site.title') },
     { property: 'og:description', content: t('site.description') },
+    { property: 'og:image', content: '/logo.webp' },
+    { property: 'og:image:alt', content: 'Vertical Technology logo' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: t('site.title') },
+    { name: 'twitter:description', content: t('site.description') },
+    { name: 'twitter:image', content: '/logo.webp' },
+    { name: 'theme-color', content: '#0D1B2A' },
   ],
   link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+    { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
     {
       rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap',
+    },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Vertical Technology',
+        logo: '/logo.webp',
+        telephone: '+995595147878',
+        email: 'verticaltechnology2011@gmail.com',
+      }),
     },
   ],
 }))

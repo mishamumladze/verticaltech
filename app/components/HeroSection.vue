@@ -1,10 +1,16 @@
 <template>
   <section class="relative overflow-hidden bg-navy text-white">
-    <img
+    <NuxtPicture
       :src="image"
       :alt="alt || title"
-      class="hero-img absolute inset-0 h-full w-full object-cover"
-      loading="eager"
+      format="avif,webp"
+      sizes="100vw"
+      :img-attrs="{
+        class: 'hero-img absolute inset-0 h-full w-full object-cover',
+        loading: 'eager',
+        fetchpriority: 'high',
+        decoding: 'async',
+      }"
     />
     <div class="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
       <p v-if="eyebrow" class="lift-in font-display text-xs font-bold uppercase tracking-widest text-brand-light">{{ eyebrow }}</p>

@@ -39,11 +39,18 @@
       <div class="mx-auto grid max-w-6xl items-center gap-8 px-4 py-16 md:grid-cols-2 md:py-20">
         <div class="relative">
           <div class="absolute -left-3 -top-3 h-full w-full rounded-xl bg-navy" aria-hidden="true" />
-          <img
+          <NuxtPicture
             src="/pages/about/main.webp"
             :alt="t('home.aboutImageAlt')"
-            class="relative aspect-[4/3] w-full rounded-xl object-cover shadow-sm"
-            loading="lazy"
+            format="avif,webp"
+            width="6016"
+            height="4016"
+            sizes="100vw md:50vw"
+            :img-attrs="{
+              class: 'relative aspect-[4/3] w-full rounded-xl object-cover shadow-sm',
+              loading: 'lazy',
+              decoding: 'async',
+            }"
           />
           <p class="absolute -bottom-4 left-6 rounded-lg bg-brand px-4 py-2 text-sm font-bold text-white shadow-md">
             14 · {{ t('home.stats.experience') }}

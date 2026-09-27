@@ -33,7 +33,10 @@
               :src="`https://picsum.photos/seed/${item.key}/600/400`"
               :alt="t(`products.items.${item.key}`)"
               class="aspect-[16/10] w-full object-cover"
+              width="600"
+              height="400"
               loading="lazy"
+              decoding="async"
             />
             <span class="absolute left-3 top-3 rounded-md bg-brand px-2 py-1 text-xs font-semibold text-white">
               {{ t(`products.categories.${item.cat}`) }}
