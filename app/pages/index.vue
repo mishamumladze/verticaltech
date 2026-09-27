@@ -37,10 +37,10 @@
             :src="logo.src"
             :alt="logo.alt"
             format="avif,webp"
-            width="768"
-            height="768"
+            width="200"
+            height="200"
             :img-attrs="{
-              class: 'h-40 max-w-none transition-all duration-300 cursor-pointer',
+              class: 'max-w-none transition-all duration-300 cursor-pointer',
               loading: 'lazy',
               decoding: 'async',
             }"
