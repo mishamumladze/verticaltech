@@ -32,7 +32,7 @@
           class="group mt-4 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
         >
           <div
-            class="flex w-max items-center gap-16 animate-loop-scroll group-hover:[animation-play-state:paused] motion-reduce:animate-none"
+            class="flex h-10 md:h-24 w-max items-center gap-8 md:gap-16 animate-loop-scroll group-hover:[animation-play-state:paused] motion-reduce:animate-none"
           >
             <template v-for="(copy, ci) in 2" :key="ci">
               <NuxtImg
@@ -44,7 +44,7 @@
                 format="avif,webp"
                 width="200"
                 height="200"
-                class="h-12 w-auto shrink-0 md:h-16"
+                class="h-28 w-auto shrink-0 md:h-40"
                 loading="lazy"
                 decoding="async"
               />
