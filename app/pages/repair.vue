@@ -53,7 +53,7 @@
     <!-- Repair items: icon cards, modernization + inspection prominent -->
     <section class="md:flex mx-auto max-w-6xl px-4 pt-16 md:pt-20 gap-4">
       <div class="md:max-w-[50%] mb-4 md:mb-0">
-        <img src="/pages/repair.png" alt="test" class="rounded" />
+        <img src="/pages/repair/main.webp" alt="test" class="rounded" />
       </div>
       <div class="md:max-w-[50%]">
         <p

@@ -2,7 +2,7 @@
   <header class="sticky top-0 z-50 bg-navy text-white shadow">
     <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
       <NuxtLink :to="localePath('/')" class="text-lg font-extrabold tracking-tight">
-        <span class="text-brand-light">Vertical</span> Technology
+        <img src="/logo.webp" alt="Vertical Technology logo" class="h-10">
       </NuxtLink>
 
       <button

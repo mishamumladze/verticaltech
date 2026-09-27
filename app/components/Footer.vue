@@ -3,7 +3,7 @@
     <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3">
       <div>
         <p class="text-lg font-extrabold text-white">
-          <span class="text-brand-light">Vertical</span> Technology
+          <img src="/logo.webp" alt="Vertical Technology logo" class="h-20">
         </p>
         <p class="mt-2">{{ t('footer.tagline') }}</p>
       </div>
