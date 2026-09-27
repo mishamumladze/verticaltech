@@ -23,28 +23,33 @@
     </HeroSection>
 
     <!-- Trust strip -->
-    <section class="border-b border-ink/5 bg-white">
+    <section class="overflow-hidden border-b border-ink/5 bg-white">
       <div class="mx-auto max-w-6xl px-4 py-6 text-center">
         <p class="text-xs font-semibold uppercase tracking-widest text-ink/50">
           {{ t("home.trustEyebrow") }}
         </p>
         <div
-          class="flex space-x-16 animate-loop-scroll min-w-full shrink-0 h-40 items-center justify-around group-hover:[animation-play-state:paused]"
+          class="group mt-4 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
         >
-          <NuxtPicture
-            v-for="(logo, index) in logos"
-            :key="`track1-${index}`"
-            :src="logo.src"
-            :alt="logo.alt"
-            format="avif,webp"
-            width="200"
-            height="200"
-            :img-attrs="{
-              class: 'max-w-none transition-all duration-300 cursor-pointer',
-              loading: 'lazy',
-              decoding: 'async',
-            }"
-          />
+          <div
+            class="flex w-max items-center gap-16 animate-loop-scroll group-hover:[animation-play-state:paused] motion-reduce:animate-none"
+          >
+            <template v-for="(copy, ci) in 2" :key="ci">
+              <NuxtImg
+                v-for="(logo, index) in logos"
+                :key="`${ci}-${index}`"
+                :src="logo.src"
+                :alt="ci === 0 ? logo.alt : ''"
+                :aria-hidden="ci === 1"
+                format="avif,webp"
+                width="200"
+                height="200"
+                class="h-12 w-auto shrink-0 md:h-16"
+                loading="lazy"
+                decoding="async"
+              />
+            </template>
+          </div>
         </div>
         <p class="mt-3 text-sm text-ink/70">{{ t("home.trustZones") }}</p>
       </div>
